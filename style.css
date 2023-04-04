@@ -1,0 +1,45 @@
+body {
+    max-width:960px;
+    margin:auto;
+  }
+  
+  #bars {
+      margin: 2em auto;
+      max-width: 960px;
+      overflow: hidden;
+  }
+  
+  .bar {
+      float: left;
+      width: 20%;
+      text-align: center;
+  }
+  
+  .bar h3 {
+      font-size: 1.4em;
+      font-weight: normal;
+      margin: 0;
+      text-transform: uppercase;
+  }
+  
+  .bar-circle {
+      display: block;
+      margin: 0.7em auto;
+  }
+  
+  h3 {
+      display:inline-block;
+      margin-left:25px;
+      cursor:pointer;
+  }
+  #names {
+    text-align:center;
+  }
+  .bactive {
+      border-bottom:3px solid #D6AC4B;
+          font-weight:800;
+  }
+  .sbar {
+    display:none;
+  }
+  
